@@ -19,32 +19,30 @@ import PartyMaster from './components/PartyMaster';
 
 function App() {
   return (
-   <><BrowserRouter>
-   <Drawer2/>
-   {/* <Header /> */}
-   
-   <Title/>
-   {/* <Drawer1/> */}
-   {/* <Temp/> */}
-   
-   <Routes>
-    <Route path='/Sales'  element={<Data/>}/>
-    <Route path='/PurchaseEntry'  element={<PurchaseEntry/>}/>
-    <Route path='/ItemMaster'  element={<ItemMaster/>}/>
-    <Route path='/PartyMaster'  element={<PartyMaster/>
-}/>
-  
+    <><BrowserRouter>
+      <Drawer2 />
 
-    
 
-    
-   
-   {/* <Drawer1/> */}
-   </Routes>
-   
-   </BrowserRouter>
-   
-   </>
+      <Title />
+
+
+      <Routes>
+        <Route path='/Sales' element={<Data />} />
+        <Route path='/PurchaseEntry' element={<PurchaseEntry />} />
+        <Route path='/ItemMaster' element={<ItemMaster />} />
+        <Route path='/PartyMaster' element={<PartyMaster />
+        } />
+
+
+
+
+
+
+      </Routes>
+
+    </BrowserRouter>
+
+    </>
   );
 }
 
